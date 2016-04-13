@@ -45,16 +45,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, SecondActivity.class);
-                /*mImageView.buildDrawingCache();
+                mImageView.buildDrawingCache();
                 Bitmap bmp = mImageView.getDrawingCache();
                 i.putExtra("BitmapImage", bmp);
-                startActivity(i);*/
-                Bitmap b1 = null; // your bitmap
-                ByteArrayOutputStream bs = new ByteArrayOutputStream();
-                b1.compress(Bitmap.CompressFormat.PNG, 50, bs);
-                i.putExtra("byteArray", bs.toByteArray());
                 startActivity(i);
-
+                
             }
         });
 
