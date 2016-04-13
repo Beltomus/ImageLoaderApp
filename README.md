@@ -1,1 +1,1 @@
-This App load images from URL and then pass the selected image from one activity to another when we click FAB button
+This App loads images from URL and then sends the selected image from one activity to another when we click FAB button
